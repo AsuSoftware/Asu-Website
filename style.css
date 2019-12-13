@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   border: 0;
+  outline: none !important;
 }
 
 body {
@@ -74,7 +75,7 @@ body {
 
 .fundal img {
   border-radius: 50%;
-  height: 200px;
+  height: 220px;
   width: 220px;
   transition: transform 0.5s;
 
@@ -137,6 +138,7 @@ body {
 
 .titlu-des {
   width: 100%;
+  padding: 6px 12px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -469,6 +471,7 @@ body {
   display: flex;
   justify-content: center;
 }
+
 .poze {
   margin: 10px 0px;
   transition: transform 0.5s;
@@ -503,6 +506,7 @@ body {
   position: relative;
   left: 4%;
 }
+
 .poze4 {
   display: flex;
 
@@ -575,6 +579,7 @@ body {
 
 .us {
   margin-bottom: 20px;
+  padding: 10px;
   width: 85%;
   height: 4em;
   font-size: 13px;
@@ -584,6 +589,7 @@ body {
 
 .mai {
   margin-bottom: 20px;
+  padding: 10px;
   width: 85%;
   height: 4em;
   font-size: 13px;
@@ -593,6 +599,7 @@ body {
 
 .mes {
   margin-bottom: 20px;
+  padding: 10px;
   width: 85%;
   height: 20em;
   border-radius: 6px;
