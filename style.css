@@ -889,3 +889,41 @@ footer {
     width: 85%;
   }
 }
+
+@media only screen and (min-width: 1200px) {
+  .box {
+    left: 29%;
+  }
+
+  .titlu-fundal3 {
+    right: 22%;
+  }
+
+  .css {
+    right: 3%;
+  }
+
+  .js {
+    right: 6.3%;
+  }
+
+  .pho {
+    right: 6.5%;
+  }
+
+  .poze4 {
+    right: 14%;
+  }
+
+  .poze5 {
+    left: 15%;
+  }
+
+  .mare {
+    justify-content: space-around;
+  }
+
+  .mare2 {
+    justify-content: space-evenly;
+  }
+}
